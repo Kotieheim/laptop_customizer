@@ -20,7 +20,7 @@ class LaptopSpecs extends Component {
         })
         return (
             <section className="main__form">
-                <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
+                <h3>Customize your laptop</h3>
                 {features}
             </section>
         )

@@ -41,9 +41,7 @@ class App extends Component {
     return (
       <div className='App'>
         <header>
-          <h1>ELF Computing</h1>
-          <h3>Laptops</h3>
-          <h5>Customize your Laptop</h5>
+          <h1>ELF Computing | Laptops</h1>
         </header>
         <main>
           <LaptopSpecs
