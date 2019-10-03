@@ -2,19 +2,29 @@
   padding: 0.8rem;
   padding-top: 0.4rem;
   border: 0;
+  
 }
 
 .feature + .feature {
   margin-top: 0.8rem;
+  
 }
 
 .feature__name {
   font-size: inherit;
   line-height: inherit;
   font-weight: bold;
+  
 }
 
 .feature__item + .feature__item {
   margin-top: 0.8rem;
+}
+.feature__selected {
+  background: lightgray;
+}
+
+.feature__list {
+  list-style: none;
 }
 

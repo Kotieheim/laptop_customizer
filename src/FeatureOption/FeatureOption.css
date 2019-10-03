@@ -1,7 +1,9 @@
 .feature__option:not(.feature__selected) {
   cursor: pointer;
 }
-
+.feature__option {
+  border: 1px solid gray;
+}
 
 
 .feature__option:checked + .feature__label {
