@@ -2,15 +2,19 @@
   height: 100%;
 }
 
-header {
-  background-color: #DDDDDD;
-  padding: 20px;
-  height: 25%;
+* {
+  box-sizing: border-box;
 }
 
+header {
+  background-color: #252525d2;
+  color: #fff;
+  padding: 2rem;
+}
 main {
+  width: 95%;
+  max-width: 120rem;
   display: flex;
   flex-direction: row;
-  height: 75%;
-  padding: 15px;
+  margin: 0 auto;
 }

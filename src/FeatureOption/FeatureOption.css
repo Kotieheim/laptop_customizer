@@ -2,15 +2,20 @@
   cursor: pointer;
 }
 
-.feature__option:not(.feature__selected):hover {
-  text-shadow: 1px 1px 2px blue;
+
+
+.feature__option:checked + .feature__label {
+  border: 0.2rem solid #0070c9;
 }
 
-.feature__option {
-  margin-top: 4px;
-  padding: 2px;
+.feature__option:focus + .feature__label {
+  box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.3rem #83c0fd;
+}
+
+.feature__option:not(:checked) + .feature__label {
+  cursor: pointer;
 }
 
 .feature__selected {
-  background: #DEDEDE;
+  border: 0.2rem solid #0070c9;
 }
