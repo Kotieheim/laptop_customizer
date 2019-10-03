@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LaptopSpecs from '../src/LaptopSpecs/LaptopSpecs'
 import './App.css';
+import ShoppingCart from './ShoppingCart/ShoppingCart';
 
 
 class App extends Component {
@@ -50,6 +51,7 @@ class App extends Component {
           selected={this.state.selected}
           onSelect={this.updateFeature}
           />
+          <ShoppingCart selected={this.state.selected} />
         </main>
       </div>
     )
